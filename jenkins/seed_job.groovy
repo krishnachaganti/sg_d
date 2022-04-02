@@ -10,7 +10,7 @@ if (awsCredentialId == null) {
 
 def sagemakerProjectName = "kc-second-test"
 def sagemakerProjectId = "p-r1jlbrvng988"
-def sagemakerProjectArn= "arn:aws:sagemaker:us-east-1:231939715665:project/kc-first-test"
+def sagemakerProjectArn= "arn:aws:sagemaker:us-east-1:231939715665:project/kc-second-test"
 def sourceModelPackageGroupName = "kc-first-test-p-r1jlbrvng8cm"
 def modelExecutionRole = "arn:aws:iam::231939715665:role/service-role/AmazonSageMakerServiceCatalogProductsUseRole"
 def awsRegion = "us-east-1"
