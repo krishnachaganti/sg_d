@@ -8,8 +8,8 @@ if (awsCredentialId == null) {
   throw new DslException('Please pass AWS credential parameter ' + 'AWS_CREDENTIAL' )
 }
 
-def sagemakerProjectName = "kc-first-test"
-def sagemakerProjectId = "p-r1jlbrvng8cm"
+def sagemakerProjectName = "kc-second-test"
+def sagemakerProjectId = "p-r1jlbrvng988"
 def sagemakerProjectArn= "arn:aws:sagemaker:us-east-1:231939715665:project/kc-first-test"
 def sourceModelPackageGroupName = "kc-first-test-p-r1jlbrvng8cm"
 def modelExecutionRole = "arn:aws:iam::231939715665:role/service-role/AmazonSageMakerServiceCatalogProductsUseRole"
